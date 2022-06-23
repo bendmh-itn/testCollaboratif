@@ -1,0 +1,18 @@
+git clone
+git clone https://github.com/bendmh-itn/testCollaboratif.git
+cd testCollaboratif
+git branch
+git branch bb
+git branch
+git switch bb
+git branch
+git status
+git add .
+git commit -m "ajout bb"
+git push origin
+git push --set-upstream origin bb
+git pull origin main
+git add commit -m 'test ‚criture mˆme endroit'
+git commit -a -m "test ‚criture mˆme endroit"
+git push origin
+doskey /history > historique.txt
